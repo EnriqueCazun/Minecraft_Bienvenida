@@ -1,0 +1,6 @@
+# Mensaje de bienvenida (puedes usar & para códigos de color)
+welcome-message: "&a¡Bienvenido al servidor, {player}!"
+welcome-broadcast: "&e¡Todos den la bienvenida a {player} que se ha unido al servidor!"
+
+# Configuración de recarga
+reload-message: "&aConfiguración recargada correctamente"

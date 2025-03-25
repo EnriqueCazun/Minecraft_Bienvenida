@@ -1,0 +1,12 @@
+name: Bienvenida
+version: 1.0
+main: com.Bienvenida.Bienvenida
+api-version: 1.20
+description: Bienvenida automatica
+author: Enrique Cazun
+commands:
+  bienvenida:
+    description: Comando para administrar el plugin de bienvenida
+    usage: /bienvenida [reload]
+    permission: bienvenida.reload
+    permission-message: No tienes permiso para usar este comando
