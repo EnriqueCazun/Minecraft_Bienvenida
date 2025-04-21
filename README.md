@@ -13,7 +13,7 @@ Sistema de mensajes personalizados para jugadores que se unen al servidor, con c
 ---  
 
 ## Instalación  
-1. Descarga `Bienvenida-1.0.jar` desde [Releases]().  
+1. Descarga `Bienvenida-1.0.jar` desde [Releases](https://github.com/EnriqueCazun/Minecraft_Bienvenida/releases/tag/1.0).  
 2. Colócalo en la carpeta `plugins` de tu servidor.  
 3. Reinicia el servidor.  
 
@@ -21,7 +21,14 @@ Sistema de mensajes personalizados para jugadores que se unen al servidor, con c
 
 ## Uso  
 ### Comandos  
-- `/bienvenida reload` → Recarga la configuración (requiere permiso).  
+- `/bienvenida reload` → Recarga la configuración (requiere permiso).
+
+---
+
+## Contribuciones
+Los reportes de errores y sugerencias son bienvenidos. Abre un issue para discutir cambios.
+
+---
 
 ### Configuración  
 Edita `plugins/Bienvenida/config.yml`:  
