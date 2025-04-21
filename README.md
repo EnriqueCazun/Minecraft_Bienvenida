@@ -1,12 +1,31 @@
-Plugin de Bienvenida para Minecraft 1.20.1
+# Bienvenida - Plugin para Minecraft  
 
-Bienvenida es un plugin para Minecraft 1.20.1 que mejora la experiencia de los jugadores al unirse al servidor con mensajes personalizables y funciones útiles.
+Sistema de mensajes personalizados para jugadores que se unen al servidor, con configuración flexible y soporte para colores.  
 
-Características principales:
+---  
 
-- Mensajes de bienvenida personalizables con colores y variables
-- Configuración fácil mediante archivo config.yml
-- Soporte para recarga en caliente con /bienvenida reload
-- Mensajes de broadcast opcionales para todos los jugadores
-- Sistema de permisos integrado
-- 100% personalizable sin necesidad de reiniciar el servidor
+## Características  
+- **Mensajes de bienvenida** personalizables (con códigos de color `&`).  
+- **Broadcast automático** al unirse un jugador.   
+- **Recarga en caliente** (`/bienvenida reload`) sin reiniciar el servidor.  
+- **Sistema de permisos** integrado (`bienvenida.reload`).  
+
+---  
+
+## Instalación  
+1. Descarga `Bienvenida-1.0.jar` desde [Releases]().  
+2. Colócalo en la carpeta `plugins` de tu servidor.  
+3. Reinicia el servidor.  
+
+---  
+
+## Uso  
+### Comandos  
+- `/bienvenida reload` → Recarga la configuración (requiere permiso).  
+
+### Configuración  
+Edita `plugins/Bienvenida/config.yml`:  
+```yaml
+welcome-message: "&a¡Bienvenido al servidor, {player}!"
+welcome-broadcast: "&e¡Todos den la bienvenida a {player}!"
+reload-message: "&aConfiguración recargada"
